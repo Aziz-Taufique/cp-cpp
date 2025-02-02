@@ -16,10 +16,10 @@ int main(){
     int n;
     cout<<"Enter a number : ";
     cin>>n;
-    if(prime(n)){
-        cout<<"PRIME"<<endl;
-    }else{
-        cout<<"Not prime"<<endl;
+   for(int i=1;i<=n;i++){
+    if(prime(i)){
+        cout<<i<<" ";
     }
+   }
     return 0;
 }
